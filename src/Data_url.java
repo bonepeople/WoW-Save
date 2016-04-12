@@ -125,11 +125,7 @@ public class Data_url
 		{
 			e.printStackTrace();
 		}
-		finally
-		{
-			return requestToken;
-		}
-
+		return requestToken;
 	}
 	
 	public static String get_accesstoken(String oauth_verifier)
@@ -178,11 +174,7 @@ public class Data_url
 		{
 			e.printStackTrace();
 		}
-		finally
-		{
-			return accesstoken;
-		}
-		
+		return accesstoken;
 	}
 	
 	public static String get_account_info()
@@ -283,11 +275,7 @@ public class Data_url
 		{
 			e.printStackTrace();
 		}
-		finally
-		{
-			return metadata;
-		}
-		
+		return metadata;
 	}
 	
 	
